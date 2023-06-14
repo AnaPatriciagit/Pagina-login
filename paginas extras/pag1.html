@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pag1.css">
+    <link rel="stylesheet" href="responsividade/media.css">
+</head>
+<body>
+                 <!--CABEÇALHO-->
+    <header>
+        <div id="syscad">
+        <h1 id="sys">SYSCAD</h1>
+    </div>
+
+        <img src="../imagens/barra.png" id="barra" alt="">
+ 
+        <div id="sysuser">
+            <img src="../imagens/icon3.jpg" id="iconsys" alt="">
+        </div>
+        
+        <p id="iconsysp">Fulano junior</p>
+    </header>
+                  <!--MENU-->
+    <div id="user">
+        <img src="../imagens/icon3.jpg" id="imgicon3"alt="">
+   <h3>Fulano Júnior</h3>
+   <br>
+    <p id="online"><li>online</li></p>
+   <br>
+   <img src="../imagens/usuariossys.png" id="usuariossys" alt="">
+  <a href="http://" id="linkuser">Usuarios</a>
+    </div>
+                <!--GERENCIAMENTO-->
+    <div id="gerenciamento">
+        <h2>Usuários</h2>
+    </div>
+        <p id="ger">Gerenciamento de usuários do sistema</p>
+
+                <!--TABELINHA-->
+
+    <table class="tabela">
+        <thead>
+ <caption><strong>Lista de usuários</strong></caption>
+<tr>
+    <th>Foto</th>
+    <th>Nome</th>
+    <th>Email</th>
+    <th>Admin</th>
+    <th>Criado em</th>
+    <th>Ações</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td><img src="../imagens/icon2.jpg" class="imgtable" alt=""></td>
+    <td>Fulano</td>
+    <td>Fulaninho@gamil</td>
+    <td>Sim</td>
+    <td>02/04/2005</td>
+    <td>
+   <input type="button" value="Editar" class="butons">
+   <input type="button" value="Excluir" class="butons " id="bnt">
+    </td>
+</tr>
+<tr>
+    <td><img src="../imagens/icon3.jpg"  class="imgtable" alt=""></td>
+    <td>Fuiajj</td>
+    <td>Fujdhf@gamil</td>
+    <td>Sim</td>
+    <td>22/09/2009</td>
+    <td>
+   <input type="button" value="Editar" class="butons">
+   <input type="button" value="Excluir" class="butons"  id="bnt">
+    </td>
+</tr>
+<tr>
+    <td><img src="../imagens/icon1.jpg" class="imgtable" alt=""></td>
+    <td>Ana</td>
+    <td>Ana@gamil</td>
+    <td>Sim</td>
+    <td>12/05/2003</td>
+    <td>
+  <input type="button" value="Editar" class="butons">
+  <input type="button" value="Excluir" class="butons"  id="bnt">
+    </td>
+</tr>
+</tbody>
+    </table>
+
+                <!--HOME>USUÁRIO-->
+                <div class="home">
+                    <br>
+                <a href="#" >Home</a> > <a href="#">Usuários</a>
+            </div>
+
+            <div id="nvusers" class="homena">
+         <p id="num1">44</p>
+         <p id="maisusers">Novos usuários</p>
+         <img src="../imagens/novos.png" class="grafico" alt="grafico">
+            </div>
+
+            <div id="admins"  class="homena">
+         <p id="num2">15</p>
+         <p id="maisadmins">Administradores</p>
+         <img src="../imagens/grafpizza.png" class="grafico" alt="grafico">
+            </div>
+                <!--FORMULARIOOO-->
+
+    <div class="formulario">
+        <strong><p id="formp">Novo Usuario</p></strong>
+  Nome
+  <br>
+ <input type="text" >
+ <br>
+  Gênero
+ <br>
+ <input type="radio" name="" id=""> Masculino
+ <br>
+ <input type="radio" name="" id=""> Feminino
+ <br>
+  Nascimento
+  <br>
+ <input type="date" name="" id="">
+ <br>
+  País 
+ <br>
+<select name="" id="" placeholder="Selecione um país"> 
+<option value="Pt">Portugal</option>
+<option value="Br">Brasil</option>
+<option value="EUA">Estados unidos</option>
+</select>
+<br>
+ E-mail
+ <br>
+<input type="email" name="" id="">
+<br>
+Senha
+<br>
+<input type="password" name="" id="">
+<br>
+Foto
+<br>
+<input type="file" name="" id="">
+<br>
+<input type="checkbox" name="" id="">Administrador
+<br>
+<input type="submit" value="Salvar" id="salva">
+    </div>
+</body>
+</html>

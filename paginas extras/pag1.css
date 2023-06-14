@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+
+header{
+    background-color: #002c2f;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    
+}
+
+img{
+    margin-left: 8px;
+    width: 70px;
+    height: 70px;
+}
+div#syscad{
+    padding: 0;
+}
+
+#sys{
+   color: rgb(255, 255, 255);
+   margin-left: 40px;
+}
+
+#barra{
+    width: 70px;
+    height: 62px;
+    padding: 0;
+    margin-left: 3%;
+}
+
+
+ul{
+  background-color: #428C85;
+}
+
+li{
+    text-decoration: none;
+}
+
+#user{
+    background-color: #1e646e;
+    color: white;
+    width: 250px;
+    height: 100vh;
+    margin: 0px;
+}
+
+#userimg{
+    margin-top: 20px;
+    height: 70px;
+}
+
+#sysuser{
+    margin: 0;
+    padding: 0;
+    margin-left: 74%;
+}
+
+#iconsys{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+#iconsysp{
+   color: rgb(255, 255, 255);
+   margin-right: 20px;
+}
+
+
+#imgicon3{
+    width: 50px;
+    height: 50px;
+    margin-top: 10%;
+    border-radius: 50%;
+    padding-left: 10px;
+}
+
+h3{
+    color: rgb(0, 0, 0);
+    margin-top: -40px;
+    margin-bottom: 15px;
+    margin-left: 90px;
+    font-size: 20px;
+}
+
+li{
+   color: rgb(31, 180, 68);
+   margin-top: -20px;
+   margin-left: 40%;
+   font-size: 15px;
+}
+
+#usuariossys{
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    margin-left: 12px;
+}
+
+ a#linkuser{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-top: -10%;
+    margin-left: 12%;
+}
+
+
+ h2{
+    color: rgb(0, 0, 0);
+    margin-left: 16%;
+    margin-top: -48%;
+}
+
+#ger{
+    margin-left: 23%;
+    margin-top: -20px;
+}
+
+.tabela{
+    background-color: #839ea7;
+    width: 52%;
+    margin-top: -20px;
+    margin-left: 15%;
+    border: 10px;
+}
+caption{
+    width: 100%;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    background-color: #6c828a;
+}
+tr{
+    line-height: 30px;
+}
+tr#Titulo{
+    font-weight: bold;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+}
+td{
+    padding: 0px 5px;
+    color: white;
+}
+.imgtable{
+    padding-left: 20px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.butons{
+ border-radius: 8px;
+ width: 45px;
+ height: 35px;
+ background-color:  #526268;
+ color: white;
+ border: none;
+}
+
+#bnt{
+    background-color: #3e4a4e;
+    color: white;
+}
+
+.home{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 10%;
+    left: 92%;
+    transform: translate(-10%,-92%);
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+a:active{
+    color: red;
+}
+a:visited{
+    color: rgb(0, 0, 0);
+}
+.formulario{
+    margin: 0;
+    position: absolute;
+    top: -23%;
+    left: 77%;
+    transform: translate(-8%,77%);
+    width: 360px;
+    height: 70%;
+    background-color:#92a5a3;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+.homena{
+    width: 200px;
+    height: 150px;
+    color: white;
+}
+
+#nvusers{
+    background-color: #869DAB;
+    position: absolute;
+    top: 24%;
+    left: 77%;
+    transform: translate(-28%,-77%);
+    padding-left: 10px;
+}
+
+#num1{
+    color: white;
+    font-size: 40px;
+}
+
+#maisusers{
+    color: white;
+    font-size: 20px;
+}
+
+#admins{
+    background-color: #78919e;
+    position: absolute;
+    top: 26%;
+    left: 90%;
+    transform: translate(-28%,-90%);
+    padding-left: 10px;
+}
+
+#num2{
+    color: white;
+    font-size: 40px;
+}
+
+#maisadmins{
+    color: white;
+    font-size: 20px;
+}
+
+.grafico{
+    margin-left: 58%;
+}
+
+#formp{
+    text-align: center;
+    margin-top: 8%;
+    color: aliceblue;
+    font-size: 20px;
+}
+input{
+    margin-bottom: 20px;
+}
+input[type=text]{
+    width: 90%;
+    height: 22px;
+}
+
+input[type=date]{
+    width: 90%;
+    height: 25px;
+    border-radius: 8px;
+}
+
+select{
+    width: 90%;
+    height: 30px;
+    margin-bottom: 8px;
+}
+
+input[type=email]{
+    width: 90%;
+    height: 25px;
+}
+
+input[type=password]{
+    width: 90%;
+    height: 22px;
+}
+
+#salva{
+    width: 90px;
+    height: 35px;
+    background-color: #6d7c7b;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    border: none;
+}
